@@ -45,8 +45,8 @@
     <string name="no">Ні</string>
     <string name="once">Один раз</string>
     <string name="always">Завжди</string>
-    <string name="deny">Відмовити</string>
-    <string name="do_not_show_again">НЕ ПОКАЗУВАТИ ЩЕ РАЗ</string>
+    <string name="deny">Скасувати</string>
+    <string name="do_not_show_again">НЕ ПОКАЗУВАТИ ЗНОВУ</string>
     <string name="accept">Прийняти</string>
     <string name="decline">Відхилити</string>
     <string name="select_all">Виділити все</string>
@@ -69,9 +69,9 @@
     <!-- Replace Api dialog -->
     <string name="api_replacement_dialog_neutral">Вивантажити без змін</string>
     <string name="api_replacement_dialog_accept">Вивантажити з заміненими ключами</string>
-    <string name="api_replacement_dialog_warning">Проєкт містить цеглини, які отримують доступ до
-        веб-сервісам, а також, здається, містить ключі API. Будь ласка, подивіться %1s чому
-        вивантаження цих ключів може бути небезпечним.</string>
+    <string name="api_replacement_dialog_warning">Проєкт містить блоки, які отримують доступ до
+        інтернету, а також, здається, містить ключі API. Будь ласка, подивіться %1s чому
+        завантаження цих ключів може бути небезпечним.</string>
     <string name="api_replacement">вставити ключ API тут</string>
     <!-- -->
     <!-- Login/Logout Mechanism -->
@@ -80,7 +80,7 @@
     <string name="loading_google_login">Вхід в Google на нашому сервері завершено&#8230;</string>
     <string name="logout_successful">Вихід виконано</string>
     <string name="degrees">градусів</string>
-    <string name="background">Фон</string>
+    <string name="background">Тло</string>
     <string name="landscape">горизонтальна</string>
     <string name="portrait">вертикальна</string>
     <string name="unknown">невідомо</string>
@@ -104,7 +104,7 @@
     <!--  -->
     <!-- Marketing activity -->
     <string name="marketing_created_with">Створений за допомогою</string>
-    <string name="marketing_app_details">Детальніше про цей додаток</string>
+    <string name="marketing_app_details">Детальніше про додаток</string>
     <string name="marketing_more_on_google_play">Більше додатків на App Store</string>
     <string name="error_cannot_open_huawei_app_gallery">Упс! Не вдалося відкрити Huawei AppGallery,
         повторіть спробу пізніше.</string>
@@ -119,27 +119,27 @@
     <string name="preference_title_web_access">Веб-доступ</string>
     <string name="preference_description_web_access">Редагувати, додати або видалити довірені домени</string>
     <string name="preference_screen_web_access_title">Редагувати довірені домени</string>
-    <string name="preference_title_ai">Розширення штучного інтелекту (AI)</string>
-    <string name="preference_description_ai">Увімкнути цеглини та датчики штучного інтелекту</string>
+    <string name="preference_title_ai">Розширення штучного інтелекту (ШІ)</string>
+    <string name="preference_description_ai">Увімкнути блоки та датчики штучного інтелекту</string>
     <string name="preference_title_ai_speech_recognition">Розпізнавання
         мовлення</string>
     <string name="preference_description_ai_speech_recognition">Увімкнути
-        цеглини та датчики розпізнавання мовлення</string>
+        блоки та датчики розпізнавання мовлення</string>
     <string name="preference_title_ai_speech_synthetization">Синтетизація
         мовлення</string>
     <string name="preference_description_ai_speech_synthetization">Увімкнути
-        цеглини та датчики синтетизації мовлення</string>
+        блоки та датчики синтетизації мовлення</string>
     <string name="preference_title_ai_face_detection">Виявлення
         обличчя</string>
     <string name="preference_description_ai_face_detection">Увімкнути
-        цеглини та датчики для виявлення обличчя</string>
+        блоки та датчики виявлення обличчя</string>
     <string name="preference_title_ai_pose_detection">Виявлення пози</string>
     <string name="preference_description_ai_pose_detection">Увімкнути
-        цеглини та датчики виявлення пози</string>
+        блоки та датчики виявлення пози</string>
     <string name="preference_title_ai_text_recognition">Розпізнавання
         тексту</string>
     <string name="preference_description_ai_text_recognition">Увімкнути
-        цеглини та датчики розпізнавання тексту</string>
+        блоки та датчики розпізнавання тексту</string>
     <string name="preference_title_ai_object_recognition">Розпізнавання об\'єктів</string>
     <string name="preference_description_ai_object_recognition">Увімкнути розпізнавання об\'єктів та датчики відстеження</string>
     <string name="preference_title_accessibility">Спеціальні можливості</string>
@@ -164,7 +164,7 @@
     <string name="preference_title_accessibility_element_spacing">Великий інтервал між елементами</string>
     <string name="preference_description_accessibility_element_spacing">Збільшити інтервал між елементами у списках.</string>
     <string name="preference_title_accessibility_dragndrop_delay">Затримка Drag\'n\'drop</string>
-    <string name="preference_description_accessibility_dragndrop_delay">Затримка Drag\'n\'drop для цеглин.</string>
+    <string name="preference_description_accessibility_dragndrop_delay">Затримка Drag\'n\'drop для блоків.</string>
     <string name="preference_title_accessibility_beginner_bricks">Режим початківця</string>
     <string name="preference_description_accessibility_beginner_bricks">Показувати лише прості функції.</string>
     <string name="preference_title_accessibility_font_style">Виберіть тип тексту</string>
@@ -213,7 +213,7 @@
     <!-- -->
     <string name="preference_title_enable_raspi_bricks">Розширення Raspberry Pi</string>
     <string name="preference_description_raspi_bricks">Дозволити програмі керувати комп\'ютерами Raspberry Pi</string>
-    <string name="preference_raspi_enable_bricks">Увімкнути цеглини та датчики</string>
+    <string name="preference_raspi_enable_bricks">Увімкнути блоки та датчики</string>
     <string name="preference_raspi_help">Довідка / початок роботи</string>
     <string name="preference_raspi_help_summary">Отримати довідку по налаштуванню параметрів підключення</string>
     <string name="preference_raspi_host">IP/хост адреса Raspberry Pi</string>
@@ -221,7 +221,7 @@
     <!--  -->
     <string name="preference_title_multiplayer_variables_enabled">Розширення мережевої гри</string>
     <string name="preference_description_multiplayer_variables_enabled">Дозволити додатку використовувати
-        змінні мережевої гри, поділені через Bluetooth</string>
+        змінні мережевої гри, передані через Bluetooth</string>
     <string name="preference_title_enable_test_bricks">Розширення тестування</string>
     <string name="preference_description_test_bricks">Дозволити створювати тести</string>
     <!-- Scratch Converter activity -->
@@ -305,7 +305,7 @@
     <!--  -->
     <string name="author">Автор:</string>
     <string name="screen_size">Розмір сцени:</string>
-    <string name="mode">Режим:</string>
+    <string name="mode">Орієнтація:</string>
     <string name="remix_of">Ремікс програми:</string>
     <string name="description_hint">Натисніть, щоб додати опис</string>
     <string name="notes_and_credits_hint">Натисніть, щоб додати примітки та авторів</string>
@@ -334,13 +334,13 @@
     <!--  -->
     <!-- ERRORS -->
     <!-- Terms of Use and Service Error -->
-    <string name="declined_terms_of_use_and_service_alert">Щоб використовувати наш додаток, необхідно прийняти наші Умови використання та послуги.
+    <string name="declined_terms_of_use_and_service_alert">Щоб використовувати нашу програму, необхідно прийняти наші Умови використання та послуги.
         Однак, якщо ви не відчуваєте себе комфортно, ви можете скористатися нашими безплатними веб-сервісами на</string>
     <string name="wtf_error">Сталася неочікувана помилка: я не можу відновити зразок проєкту.</string>
     <!-- Project Handling Errors -->
     <string name="error_copy_project">Помилка при копіюванні проєкту</string>
     <!-- Dialog Errors -->
-    <string name="name_already_exists">Ця назва вже використовується, будь ласка, виберіть інше.</string>
+    <string name="name_already_exists">Ця назва вже використовується, будь ласка, виберіть іншу.</string>
     <string name="name_consists_of_spaces_only">Ви розміщуєте пробіли лише в текстовому полі, введіть текст 
         за допомогою букв, цифр або інших спеціальних символів.</string>
     <string name="name_empty">Будь ласка, введіть текст</string>
@@ -356,7 +356,7 @@
     <string name="am_convert">Конвертувати</string>
     <string name="am_merge">Об’єднати</string>
     <string name="dialog_confirm_delete">Ви не зможете цього скасувати!</string>
-    <string name="list_headline_sprites">Актори та об\'єкти</string>
+    <string name="list_headline_sprites">Персонажі та об\'єкти</string>
     <!-- Options Menu Options -->
     <string name="backpack">Рюкзак</string>
     <string name="copy">Скопіювати</string>
@@ -419,7 +419,7 @@
     <!-- Dialog Labels -->
     <string name="project_name_label">Назва проєкту</string>
     <string name="scene_name_label">Назва сцени</string>
-    <string name="sprite_name_label">Назва актора або об\'єкта</string>
+    <string name="sprite_name_label">Назва персонажа або об\'єкта</string>
     <string name="sprite_group_name_label">Назва групи</string>
     <string name="script_group_label">Назва групи скриптів</string>
     <string name="look_name_label">Назва вигляду</string>
@@ -430,16 +430,16 @@
     <string name="keyword_label">Пошук</string>
     <string name="html_label">Вставте HTML текст</string>
     <string name="Image_format_not_supported">Формат зображення не підтримується</string>
-    <string name="import_conflicting_variables">Не вдалося додати актора або об\'єкт.</string>
+    <string name="import_conflicting_variables">Не вдалося додати персонажа або об\'єкт.</string>
     <string name="import_conflicting_variables_reason">Причина в тому, що наступні змінні або
         імена списку знаходяться всередині конфлікту, оскільки вони використовуються для
-        всіх суб\'єктів і об\'єктів і з тією ж назвою, і тільки для одного з акторів або об\'єктів: </string>
+        всіх суб\'єктів і об\'єктів і з тією ж назвою, і тільки для одного з персонажів або об\'єктів: </string>
     <string name="import_conflicting_variables_try_again">Перейменуйте одну з цих змінних або списків і повторіть спробу.</string>
     <!-- Details -->
-    <string name="project_details">Останній доступ: %s, розмір: %s</string>
-    <string name="last_access_today">Сьогодні, %s</string>
-    <string name="scene_details">Актори та об\'єкти: %d, вигляди: %d, звуки: %d</string>
-    <string name="sprite_details">Цеглини: %d, вигляди: %d, звуки: %d</string>
+    <string name="project_details">Останнє відкриття: %s, розмір: %s</string>
+    <string name="last_access_today">сьогодні, %s</string>
+    <string name="scene_details">Персонажі та об\'єкти: %d, вигляди: %d, звуки: %d</string>
+    <string name="sprite_details">Блоки: %d, вигляди: %d, звуки: %d</string>
     <string name="look_details">Роздільна здатність: %s, розмір: %s</string>
     <string name="sound_duration">Тривалість: %s</string>
     <string name="sound_details">Тривалість: %s, розмір: %s</string>
@@ -447,7 +447,7 @@
     <!-- Rename Dialog Titles -->
     <string name="rename_project">Перейменувати проєкт</string>
     <string name="rename_scene_dialog">Перейменувати сцену</string>
-    <string name="rename_sprite_dialog">Перейменувати актора або об\'єкт</string>
+    <string name="rename_sprite_dialog">Перейменувати персонажа або об\'єкт</string>
     <string name="rename_look_dialog">Перейменувати вигляд</string>
     <string name="rename_sound_dialog">Перейменувати звук</string>
     <string name="rename_nfctag_dialog">Перейменувати NFC мітку</string>
@@ -467,10 +467,10 @@
         <item quantity="other">Запаковано %d сцен.</item>
     </plurals>
     <plurals name="packed_sprites">
-        <item quantity="one">Запакований %d актор або об\'єкт.</item>
-        <item quantity="few">Запаковано %d актори або об\'єкти.</item>
-        <item quantity="many">Запаковано %d акторів або об\'єктів.</item>
-        <item quantity="other">Запаковано %d акторів або об\'єктів.</item>
+        <item quantity="one">Запаковано %d персонаж або об\'єкт.</item>
+        <item quantity="few">Запаковано %d персонажа або об\'єкти.</item>
+        <item quantity="many">Запаковано %d персонажів або об\'єктів.</item>
+        <item quantity="other">Запаковано %d персонажів або об\'єктів.</item>
     </plurals>
     <plurals name="packed_looks">
         <item quantity="one">Запакований %d вигляд.</item>
@@ -493,10 +493,10 @@
         <item quantity="other">Розпаковано %d сцен.</item>
     </plurals>
     <plurals name="unpacked_sprites">
-        <item quantity="one">Розпаковано %d актор або об\'єкт.</item>
-        <item quantity="few">Розпаковано %d актори або об\'єкти.</item>
-        <item quantity="many">Розпаковано %d акторів або об\'єктів.</item>
-        <item quantity="other">Розпаковано %d акторів або об\'єктів.</item>
+        <item quantity="one">Розпаковано %d персонаж або об\'єкт.</item>
+        <item quantity="few">Розпаковано %d персонажа або об\'єкти.</item>
+        <item quantity="many">Розпаковано %d персонажів або об\'єктів.</item>
+        <item quantity="other">Розпаковано %d персонажів або об\'єктів.</item>
     </plurals>
     <plurals name="unpacked_looks">
         <item quantity="one">Розпаковано %d вигляд.</item>
@@ -524,10 +524,10 @@
         <item quantity="other">Скопійовано %d сцен.</item>
     </plurals>
     <plurals name="copied_sprites">
-        <item quantity="one">Скопійовано %d актора або об\'єкта.</item>
-        <item quantity="few">Скопійовано %d актори або об\'єкти.</item>
-        <item quantity="many">Скопійовано %d акторів або об\'єктів.</item>
-        <item quantity="other">Скопійовано %d акторів або об\'єктів.</item>
+        <item quantity="one">Скопійовано %d персонаж або об\'єкт.</item>
+        <item quantity="few">Скопійовано %d персонажа або об\'єкти.</item>
+        <item quantity="many">Скопійовано %d персонажів або об\'єктів.</item>
+        <item quantity="other">Скопійовано %d персонажів або об\'єктів.</item>
     </plurals>
     <plurals name="copied_looks">
         <item quantity="one">Скопійовано %d вигляд.</item>
@@ -561,10 +561,10 @@
         <item quantity="other">Видалено %d сцен.</item>
     </plurals>
     <plurals name="deleted_sprites">
-        <item quantity="one">Видалено %d актор або об\'єкт.</item>
-        <item quantity="few">Видалено %d актори або об\'єкти.</item>
-        <item quantity="many">Видалено %d акторів або об\'єктів.</item>
-        <item quantity="other">Видалено %d акторів або об\'єктів.</item>
+        <item quantity="one">Видалено %d персонаж або об\'єкт.</item>
+        <item quantity="few">Видалено %d персонажа або об\'єкти.</item>
+        <item quantity="many">Видалено %d персонажів або об\'єктів.</item>
+        <item quantity="other">Видалено %d персонажів або об\'єктів.</item>
     </plurals>
     <plurals name="deleted_looks">
         <item quantity="one">Видалено %d вигляд.</item>
@@ -608,7 +608,7 @@
     <!--  -->
     <!-- ProjectListActivity and ProjectListFragment -->
     <string name="project_list_title">Проєкти</string>
-    <string name="last_used">Останній доступ:</string>
+    <string name="last_used">Останнє відкриття:</string>
     <string name="size">Розмір:</string>
     <string name="description">Опис:</string>
     <string name="set_description">Додати опис</string>
@@ -617,9 +617,9 @@
     <string name="details_date_today">Сьогодні</string>
     <string name="import_project">Імпортувати проєкт</string>
     <string name="export_project">Експортувати проєкт</string>
-    <string name="error_import_project">Щось пішло не так при імпорті проєктів.</string>
+    <string name="error_import_project">Під час імпорту проєктів сталася помилка.</string>
     <string name="no_projects_selected">Для імпорту не вибрано жодного проєкту</string>
-    <string name="only_select_catrobat_files">Вибрати лише файли проєкту</string>
+    <string name="only_select_catrobat_files">Виберіть файл проєкту з форматом .catrobat</string>
     <string name="error_no_files_found">Не знайдено файлів проєкту.</string>
     <string name="import_sprite_from_project_launcher">Імпортувати об\'єкт з локального проєкту</string>
     <!-- ProjectOptionsFragment -->
@@ -630,19 +630,19 @@
     <string name="project_options_more_details">Детальніше</string>
     <string name="project_options_delete_project">Видалити проєкт</string>
     <!-- ScriptListFragment -->
-    <string name="fragment_script_text_description">Натисніть \"+\", щоб додати скрипти</string>
+    <string name="fragment_script_text_description">Натисніть «+», щоб додати скрипти</string>
     <!--  -->
     <!-- SpriteListFragment -->
-    <string name="fragment_sprite_text_description">Натисніть \"+\", щоб додати акторів або об\'єктів</string>
-    <string name="default_sprite_name">Мій актор або об\'єкт</string>
+    <string name="fragment_sprite_text_description">Натисніть «+», щоб додати персонажів або об\'єктів</string>
+    <string name="default_sprite_name">Мій персонаж або об\'єкт</string>
     <!--  -->
     <!-- LookListFragment -->
-    <string name="fragment_look_text_description">Натисніть \"+\", щоб додати вигляди</string>
+    <string name="fragment_look_text_description">Натисніть «+», щоб додати вигляди</string>
     <string name="select_look_from_gallery">Виберіть зображення</string>
     <string name="select_look_from_camera">Виберіть фото</string>
     <!--  -->
     <!-- SoundListFragment -->
-    <string name="fragment_sound_text_description">Натисніть \"+\", щоб додати звуки</string>
+    <string name="fragment_sound_text_description">Натисніть «+», щоб додати звуки</string>
     <string name="sound_select_source">Виберіть звук</string>
     <!--  -->
     <!-- NfcTagListFragment -->
@@ -658,26 +658,26 @@
     <string name="tnf_well_known_https">HTTPS</string>
     <string name="tnf_well_known_tel">Номер телефона</string>
     <string name="tnf_well_known_sms">СМС</string>
-    <string name="tnf_well_known_mailto">Ел.Пошта</string>
+    <string name="tnf_well_known_mailto">Електронна пошта</string>
     <!--  -->
     <!-- DataListFragment -->
     <string name="multiplayer_vars_headline">Змінні для підключених пристроїв</string>
-    <string name="global_vars_headline">Змінні для всіх акторів і об\'єктів</string>
-    <string name="local_vars_headline">Змінні лише для цього актора або об\'єкта</string>
-    <string name="global_lists_headline">Списки для всіх акторів і об\'єктів</string>
-    <string name="local_lists_headline">Списки лише для цього актора або об\'єкта</string>
-    <string name="fragment_data_text_description">Натисніть \"+\", щоб додати\nзмінні або списки</string>
+    <string name="global_vars_headline">Змінні для всіх персонажів і об\'єктів</string>
+    <string name="local_vars_headline">Змінні лише для цього персонажа або об\'єкта</string>
+    <string name="global_lists_headline">Списки для всіх персонажів і об\'єктів</string>
+    <string name="local_lists_headline">Списки лише для цього персонажа або об\'єкта</string>
+    <string name="fragment_data_text_description">Натисніть «+», щоб додати\nзмінні або списки</string>
     <plurals name="user_defined_brick_input_headline">
-        <item quantity="one">Введіть для цієї цеглини</item>
-        <item quantity="few">Введіть для цих цеглин</item>
-        <item quantity="many">Введіть для цих цеглин</item>
-        <item quantity="other">Введіть для цих цеглин</item>
+        <item quantity="one">Введення для цього блоку</item>
+        <item quantity="few">Введення для цих блоків</item>
+        <item quantity="many">Введення для цих блоків</item>
+        <item quantity="other">Введення для цих блоків</item>
     </plurals>
     <!-- NewDataDialog -->
-    <string name="new_data_for_all_sprites">Для всіх акторів, об\'єктів і клонів у всіх сценах</string>
-    <string name="new_data_for_this_sprite_only">Тільки для цього актора, об\'єкта або одного з його клонів</string>
-    <string name="new_data_for_connected_devices">Для всіх акторів, об\'єктів і клонів у всіх сценах проєктів
-        на підключених багатокористувацьких пристроях</string>
+    <string name="new_data_for_all_sprites">Для всіх персонажів, об\'єктів і клонів у всіх сценах</string>
+    <string name="new_data_for_this_sprite_only">Тільки для цього персонажа, об\'єкта або одного з його клонів</string>
+    <string name="new_data_for_connected_devices">Для всіх персонажів, об\'єктів та клонів у всіх сценах проєктів
+        на підключених через мережу пристроях</string>
     <!-- Backpack -->
     <string name="backpack_title">Ваш рюкзак</string>
     <string name="pack">Пакувати</string>
@@ -691,7 +691,7 @@
     <string name="merging_project_text">Ці два проєкти ще не можуть бути об\'єднані</string>
     <!--  -->
     <!-- NewSpriteDialog -->
-    <string name="new_sprite_dialog_title">Новий актор або об\'єкт</string>
+    <string name="new_sprite_dialog_title">Новий персонаж або об\'єкт</string>
     <!--  -->
     <!-- NewLookDialog -->
     <string name="new_look_dialog_title">Додати вигляд</string>
@@ -728,14 +728,14 @@
     <!--  -->
     <!-- Privacy Policy -->
     <string name="disclaimer_privacy_police_header_headline">Ласкаво просимо!</string>
-    <string name="disclaimer_privacy_policy_header">Щоб скористатися цією програмою, будь ласка, прийміть нашу</string>
+    <string name="disclaimer_privacy_policy_header">Щоб скористатися цією програмою, будь ласка, прийміть наші</string>
     <!-- -->
     <!-- About Dialog -->
-    <string name="dialog_about_title">Про цю програму</string>
-    <string name="dialog_about_license_info">Ця програма пропонує кодування
-        середовища та інтерпретатора для візуальної мови програмування Catrobat.\n
-        Вихідний код цієї програми в основному ліцензується під ліцензією GNU AGPL v3.
-        Для отримання додаткових відомостей про ліцензію дивіться</string>
+    <string name="dialog_about_title">Про додаток</string>
+    <string name="dialog_about_license_info">Цей додаток пропонує кодування
+         середовище та інтерпретатор для мови візуального програмування Catrobat.\n
+         Вихідний код цього додатку в основному ліцензовано за ліцензією GNU AGPL v3.
+         Додаткову інформацію про ліцензію дивіться за посиланням нижче.\n</string>
     <string name="dialog_about_license_link_text">Ліцензія вихідного коду</string>
     <string name="dialog_about_catrobat_link_text">Про Catrobat</string>
     <string name="dialog_about_catrobat_language_version">Версія мови Catrobat</string>
@@ -765,18 +765,18 @@
     <string name="soundrecorder_text_view">Натисніть піктограму вище, щоб розпочати та припинити записування.</string>
     <!--  -->
     <!-- Brick context dialog -->
-    <string name="brick_context_dialog_move_brick">Перемістити цеглину</string>
+    <string name="brick_context_dialog_move_brick">Перемістити блок</string>
     <string name="brick_context_dialog_move_script">Перемістити скрипт</string>
     <string name="brick_context_dialog_move_definition">Перемістити це визначення</string>
-    <string name="brick_context_dialog_delete_brick">Видалити цеглину</string>
-    <string name="brick_context_dialog_copy_brick">Скопіювати цеглину</string>
+    <string name="brick_context_dialog_delete_brick">Видалити блок</string>
+    <string name="brick_context_dialog_copy_brick">Копіювати блок</string>
     <string name="brick_context_dialog_copy_script">Скопіювати скрипт</string>
     <string name="brick_context_dialog_formula_edit_brick">Редагувати формулу</string>
     <string name="brick_context_dialog_delete_script">Видалити скрипт</string>
     <string name="brick_context_dialog_delete_definition">Видалити це визначення</string>
-    <string name="brick_context_dialog_comment_in">Увімкнути цеглину</string>
-    <string name="brick_context_dialog_comment_out">Вимкнути цеглину</string>
-    <string name="brick_context_dialog_highlight_brick_parts">Виділити деталі цеглини</string>
+    <string name="brick_context_dialog_comment_in">Увімкнути блок</string>
+    <string name="brick_context_dialog_comment_out">Вимкнути блок</string>
+    <string name="brick_context_dialog_highlight_brick_parts">Виділити деталі блоку</string>
     <string name="brick_context_dialog_comment_in_script">Увімкнути скрипт</string>
     <string name="brick_context_dialog_comment_out_script">Вимкнути скрипт</string>
     <string name="brick_context_dialog_help">Довідка</string>
@@ -803,7 +803,7 @@
     <string name="login">Увійти в обліковий запис</string>
     <string name="register">Зареєструватися</string>
     <string name="password_confirm">Підтвердьте пароль</string>
-    <string name="accountName">Ел.Пошта</string>
+    <string name="accountName">Електронна пошта</string>
     <string name="signin_thanks">Дякуємо за реєстрацію!</string>
     <string name="signin_choose_username">Будь ласка, виберіть ім\'я користувача:</string>
     <string name="signin_choose_username_empty">Будь ласка, введіть ім\'я користувача.</string>
@@ -859,7 +859,7 @@
     <string name="prestage_no_flash_available">\u2022 Ліхтарик\n</string>
     <string name="prestage_default_resource_not_available">\u2022 Невідомий компонент\n</string>
     <string name="no_nfc_available">NFC недоступний</string>
-    <string name="nfc_not_activated">Будь ласка, активуйте NFC і натисніть назад, щоб повернутися до програми.</string>
+    <string name="nfc_not_activated">Будь ласка, увімкніть NFC та натисніть «Назад», щоб повернутися до програми.</string>
     <string name="nfc_facedetection_support">Одночасне використання NFC та виявлення обличчя може призвести до проблем з продуктивності.</string>
     <!--  -->
     <!-- Stage menu dialog -->
@@ -870,7 +870,7 @@
     <string name="stage_dialog_axes_off">Приховати вісь</string>
     <string name="stage_dialog_maximize">Розгорнути/\nрозтянути</string>
     <string name="stage_dialog_screenshot">Зображення</string>
-    <string name="stage_dialog_embroidery">Вишивання</string>
+    <string name="stage_dialog_embroidery">Вишивка</string>
     <!--  -->
     <!-- Broadcast spinner -->
     <string name="dialog_new_broadcast_message_title">Нове повідомлення</string>
@@ -883,14 +883,14 @@
     <!-- -->
     <!-- Brick categories -->
     <string name="categories">Категорії</string>
-    <string name="category_embroidery">Вишивання</string>
+    <string name="category_embroidery">Вишивка</string>
     <string name="category_motion">Переміщення</string>
     <string name="category_looks">Вигляди</string>
     <string name="category_pen">Перо</string>
     <string name="category_sound">Звуки</string>
     <string name="category_control">Керування</string>
     <string name="category_event">Події</string>
-    <string name="category_user_bricks">Ваші цеглини</string>
+    <string name="category_user_bricks">Користувацькі блоки</string>
     <string name="category_data">Дані</string>
     <string name="category_device">Пристрій</string>
     <string name="category_lego_nxt">Лего NXT</string>
@@ -902,21 +902,21 @@
     <string name="category_cast">Chromecast</string>
     <string name="category_raspi">Raspberry Pi</string>
     <string name="category_assertions">Тестування</string>
-    <string name="category_search_bricks">Пошук цеглин</string>
+    <string name="category_search_bricks">Пошук блоків</string>
     <!--  -->
     <!-- User Defined Bricks -->
     <string name="brick_user_defined_add_label">Додати мітку</string>
     <string name="brick_user_defined_add_input">Додати ввід</string>
-    <string name="brick_user_defined_add_input_description">Додати ввід для цієї цегли:</string>
-    <string name="brick_user_defined_add_label_description">Додати мітку для цієї цегли:</string>
+    <string name="brick_user_defined_add_input_description">Додати введення для цього блоку:</string>
+    <string name="brick_user_defined_add_label_description">Додати мітку для цього блоку:</string>
     <string name="brick_user_defined_default_input_name">Назва вводу</string>
     <string name="brick_user_defined_default_label">Текст мітки</string>
-    <string name="brick_user_defined_already_exists">Цеглина з цими мітками вже існує. Будь ласка, додайте більше міток або входів.</string>
-    <string name="brick_user_defined_script_define">Визначити</string>
+    <string name="brick_user_defined_already_exists">Блок з цими мітками вже існує. Будь ласка, додайте більше міток або введень.</string>
+    <string name="brick_user_defined_script_define">Встановити</string>
     <string name="brick_user_defined_script_screen_refresh_as">оновлення екрана як</string>
     <string name="brick_user_defined_with_screen_refreshing">з</string>
     <string name="brick_user_defined_without_screen_refreshing">без</string>
-    <string name="brick_user_defined_list_empty">Натисніть \"+\", щоб додати нові власні цеглини.</string>
+    <string name="brick_user_defined_list_empty">Натисніть «+», щоб додати користувацькі блоки.</string>
     <string name="brick_report">Скарга</string>
     <!--  -->
     <!-- Motion bricks -->
@@ -959,29 +959,29 @@
     <string name="brick_go_to_random_position">випадкова позиція</string>
     <!--  -->
     <!-- Physics -->
-    <string name="brick_set_physics_object_type">Встановити тип переміщення</string>
+    <string name="brick_set_physics_object_type">Встановити тип руху</string>
     <string name="brick_set_physics_object_type_dynamic">переміщення і підстрибування під дією тяжкості</string>
     <string name="brick_set_physics_object_type_fixed">не рухається під гравітацією, але інші відскакують від вас під дією гравітації</string>
     <string name="brick_set_physics_object_type_no">не рухається і не підстрибує під дією гравітації (за замовчуванням)</string>
-    <string name="brick_set_mass">"Встановити массу на"</string>
+    <string name="brick_set_mass">"Встановити масу"</string>
     <string name="brick_set_mass_unit">кілограм</string>
-    <string name="brick_set_gravity_to">"Встановити гравітацію для всіх акторів і об'єктів на"</string>
+    <string name="brick_set_gravity_to">"Встановити силу тяжіння для всіх персонажів і об'єктів"</string>
     <string name="brick_set_gravity_unit">кроків/секунду²</string>
-    <string name="brick_set_velocity_to">"Встановити швидкість на"</string>
+    <string name="brick_set_velocity_to">"Встановити швидкість"</string>
     <string name="brick_set_velocity_unit">кроків/секунду</string>
     <string name="brick_turn_speed_unit">градусів/секунду</string>
-    <string name="brick_set_friction">"Встановити тертя на"</string>
-    <string name="brick_set_bounce_factor">"Встановити еластичність на"</string>
+    <string name="brick_set_friction">"Встановити тертя"</string>
+    <string name="brick_set_bounce_factor">"Встановити еластичність"</string>
     <string name="brick_rotate_left">"Повертати ліворуч на"</string>
     <string name="brick_rotate_right">"Повертати праворуч на"</string>
     <!-- Look bricks -->
-    <string name="brick_set_look">Переключитися на вигляд</string>
+    <string name="brick_set_look">Перемикнутися на вигляд</string>
     <string name="brick_set_look_by_index">Переключитися на вигляд з номером</string>
     <string name="brick_and_wait">і чекати</string>
-    <string name="brick_set_background">Встановити фон</string>
-    <string name="brick_set_background_and_wait">Встановити фон і чекати</string>
-    <string name="brick_set_background_by_index">Встановити фон з номером</string>
-    <string name="brick_when_background">Коли фон змінюється на</string>
+    <string name="brick_set_background">Встановити тло</string>
+    <string name="brick_set_background_and_wait">Встановити тло і чекати</string>
+    <string name="brick_set_background_by_index">Встановити тло під номером</string>
+    <string name="brick_when_background">Коли тло зміниться на</string>
     <string name="brick_set_size_to">Встановити розмір на</string>
     <string name="brick_change_size_by">Змінити розмір на</string>
     <string name="brick_hide">Приховати</string>
@@ -996,13 +996,13 @@
     <string name="to_label">на</string>
     <string name="brick_clear_graphic_effect">Очистити графічні ефекти</string>
     <string name="brick_next_look">Наступний вигляд</string>
-    <string name="brick_next_background">Наступний фон</string>
+    <string name="brick_next_background">Наступне тло</string>
     <string name="brick_previous_look">Попередній вигляд</string>
-    <string name="brick_previous_background">Попередній фон</string>
+    <string name="brick_previous_background">Попереднє тло</string>
     <string name="brick_edit_look">Редагувати вигляд</string>
-    <string name="brick_edit_background">Редагувати фон</string>
+    <string name="brick_edit_background">Редагувати тло</string>
     <string name="brick_delete_look">Видалити вигляд</string>
-    <string name="brick_delete_background">Видалити фон</string>
+    <string name="brick_delete_background">Видалити тло</string>
     <string name="brick_flash">Увімкнути ліхтарик</string>
     <string name="brick_flash_on">увімкнути</string>
     <string name="brick_flash_off">вимкнути</string>
@@ -1016,11 +1016,11 @@
     <string name="brick_ask_speech_store">і зберегти розмовну відповідь в</string>
     <string name="brick_ask_speech_default_question">Як тебе звати?</string>
     <string name="brick_paint_new_look">Намалювати новий вигляд</string>
-    <string name="brick_paint_new_background">Намалювати новий фон</string>
+    <string name="brick_paint_new_background">Намалювати нове тло</string>
     <string name="brick_paint_new_look_name">"назва нового вигляду"</string>
     <string name="brick_copy_look">Скопіювати вигляд і назву</string>
     <string name="brick_copy_look_name">ім\'я скопійованого вигляду</string>
-    <string name="brick_copy_background">Скопіювати фон і назву</string>
+    <string name="brick_copy_background">Скопіювати тло і назвати як</string>
     <string name="brick_focus_point">Стати точкою фокусування з</string>
     <string name="brick_horizontal_and">горизонтальний та</string>
     <string name="brick_vertical_flex">вертикальна гнучкість</string>
@@ -1077,7 +1077,7 @@
     <string name="brick_open">Відкрити</string>
     <string name="brick_in_browser">в браузері</string>
     <!-- Control bricks -->
-    <string name="brick_when_started">При старті</string>
+    <string name="brick_when_started">При початку сцени</string>
     <string name="brick_when">При дотику</string>
     <string name="brick_when_condition_when">Коли</string>
     <string name="brick_when_becomes_true">стає істинним</string>
@@ -1090,7 +1090,7 @@
     <string name="brick_stop_script">Зупинити</string>
     <string name="brick_stop_this_script">цей скрипт</string>
     <string name="brick_stop_all_scripts">всі скрипти</string>
-    <string name="brick_stop_other_scripts">інші скрипти цього актора або об\'єкта</string>
+    <string name="brick_stop_other_scripts">інші скрипти цього персонажа або об\'єкта</string>
     <plurals name="second_plural">
         <item quantity="one">"секунду"</item>
         <item quantity="few">"секунди"</item>
@@ -1098,13 +1098,13 @@
         <item quantity="other">"секунд"</item>
     </plurals>
     <string name="brick_collision_receive">При зіткненні з</string>
-    <string name="collision_with_anything">будь-яким краєм, актором або об\'єктом</string>
+    <string name="collision_with_anything">будь-яким краєм, персонажем або об\'єктом</string>
     <string name="brick_broadcast_receive">Коли отримає сигнал</string>
     <string name="brick_broadcast">Сповіщати</string>
     <string name="brick_broadcast_wait">Сповіщати та чекати</string>
     <string name="brick_scene_transition">Продовжити сцену</string>
     <string name="brick_scene_start">Запустити сцену</string>
-    <string name="brick_note">Примітка</string>
+    <string name="brick_note">Нотатка</string>
     <string name="brick_think_bubble">Міркувати</string>
     <string name="brick_say_bubble">Сказати</string>
     <string name="brick_think_say_for_text">на</string>
@@ -1171,7 +1171,7 @@
     <string name="brick_write_variable_to_file_top">Записати змінну</string>
     <string name="brick_write_variable_to_file_bottom">у файл</string>
     <string name="brick_write_variable_to_file_default_value">змінна.txt</string>
-    <string name="brick_write_variable_to_file_success">"Дані успішно записані до %1$s"</string>
+    <string name="brick_write_variable_to_file_success">"Дані успішно записано як %1$s"</string>
     <string name="brick_read_variable_from_file_top">Прочитати змінну</string>
     <string name="brick_read_variable_from_file_center">з файлу</string>
     <string name="brick_read_variable_from_file_bottom">і</string>
@@ -1214,7 +1214,7 @@
     </string>
     <string name="brick_look_request">Отримати зображення з</string>
     <string name="brick_look_request_result">і використовувати як поточний вигляд</string>
-    <string name="brick_background_request_result">і використовувати як поточний фон</string>
+    <string name="brick_background_request_result">і використовувати як поточне тло</string>
     <string name="look_request_http_error_message">"Отриманий запит зображення з %1$s повернув помилку HTTP %2$s"</string>
     <string name="look_request_type_error_message">"Отримане зображення з %1$s видало помилку \"Не вдалося отримати розпізнаний формат зображення\""</string>
     <string name="brick_store_csv_into_userlist_store">Зберегти стовпець</string>
@@ -1273,7 +1273,7 @@
     <string name="default_script_group_name">Група скриптів</string>
     <string name="default_broadcast_message_name">Повідомлення</string>
     <string name="default_list_name">Список</string>
-    <string name="default_project_background_name">Фон</string>
+    <string name="default_project_background_name">Тло</string>
     <string name="default_project_cloud_name">Хмари</string>
     <string name="default_project_cloud_sprite_name_1">Хмари1</string>
     <string name="default_project_cloud_sprite_name_2">Хмари2</string>
@@ -1289,7 +1289,7 @@
     <!--suppress UnusedResources -->
     <string name="default_project_inner_loop">Внутрішній цикл</string>
     <!-- Default ChromeCast Values -->
-    <string name="default_cast_project_background_name">Фон</string>
+    <string name="default_cast_project_background_name">Тло</string>
     <string name="default_cast_project_cloud_name">Хмари</string>
     <string name="default_cast_project_cloud_sprite_name1">Хмари1</string>
     <string name="default_cast_project_cloud_sprite_name2">Хмари2</string>
@@ -1352,17 +1352,20 @@
     <string name="size_of_project">Розмір:</string>
     <!--  -->
     <!-- Runtime permission messages -->
-    <string name="runtime_permission_general">Ця програма потребує запитаних дозволів для належного функціонування. Наприклад, цеглина камери потребує доступу до камери пристрою, елемент формули «розташування» потребує доступу до датчика геолокації пристрою, а для імпорту та експорту проєктів з та до локальної пам\'яті додаток потребує доступу до нього для читання та запису. Ви завжди можете змінити дозволи в налаштуваннях пристрою.</string>
+    <string name="runtime_permission_general">Для належної роботи цій програмі потрібні запитані дозволи. Наприклад,
+блоку камери потрібен доступ до камери пристрою, елементу формули «розташування» потрібен доступ до
+датчика геолокації пристрою, а також для імпорту та експорту проєтів із локальної пам’яті та до неї, додатку
+потрібен доступ для читання та запису. Ви завжди можете змінити дозволи в налаштуваннях свого пристрою.</string>
     <!-- Error messages -->
-    <string name="error_project_upload">Щось пішло не так під час вивантаження проєкту.</string>
-    <string name="error_project_download">Щось пішло не так під час завантаження проєкту.</string>
+    <string name="error_project_upload">Під час завантаження проєкту сталася помилка.</string>
+    <string name="error_project_download">Під час завантаження проєкту сталася помилка.</string>
     <string name="error_project_already_in_queue">"Проєкт %s уже в черзі."</string>
     <string name="error_could_not_decode_project_name_from_url">\"Ваше завантаження не може бути
         запущеним, здається, є проблема з нашим сервером\".</string>
-    <string name="error_new_project">Щось пішло не так при створенні нового проєкту.</string>
-    <string name="error_rename_scene">Щось пішло не так під час перейменування сцени.</string>
-    <string name="error_load_project">Щось пішло не так під час завантаження проєкту.</string>
-    <string name="error_screenshot_failed">Щось пішло не так під час збереження зображення для проєкту.</string>
+    <string name="error_new_project">Під час створення нового проєкту сталася помилка.</string>
+    <string name="error_rename_scene">Під час перейменування сцени сталася помилка.</string>
+    <string name="error_load_project">Під час завантаження проєкту сталася помилка.</string>
+    <string name="error_screenshot_failed">Під час збереження зображення сталася помилка.</string>
     <string name="error_internet_connection">Сталася невідома помилка. Перевірте підключення до Інтернету.</string>
     <string name="error_project_compatibility">Проєкт несумісний з цією версією програми.</string>
     <string name="error_outdated_version">Ця версія програми застаріла. Оновити зараз?</string>
@@ -1370,17 +1373,17 @@
          Будь ласка, перейменуйте проєкт.</string>
     <string name="error_upload_default_project">Не можна вивантажити незмінений приклад проєкту. Будь ласка
          змініть щось і спробуйте ще раз.</string>
-    <string name="error_adding_brick">Щось пішло не так, додаючи цю цеглину.</string>
-    <string name="error_copying_brick">Щось пішло не так при копіюванні цієї цеглини.</string>
+    <string name="error_adding_brick">Під час додавання цього блоки сталася помилка.</string>
+    <string name="error_copying_brick">Щось пішло не так при копіюванні цього блоку.</string>
     <string name="error_rename_incompatible_project">Перейменування несумісного проєкту неможливе.</string>
-    <string name="error_embroidery_file_export">Щось пішло не так під час обміну файлом вишивки.</string>
-    <string name="error_embroidery_file_write">Щось пішло не так під час написання файлу вишивки.</string>
+    <string name="error_embroidery_file_export">Під час надання доступу до файлу вишивки сталася помилка.</string>
+    <string name="error_embroidery_file_write">Щось пішло не так під час запису файлу вишивки.</string>
     <string name="error_embroidery_data_not_found">Вишивка відсутня.</string>
     <string name="error_unknown_error">Щось пішло не так.</string>
     <string name="error_gps_not_available">Дані геолокації недоступні.</string>
-    <string name="error_set_description">Щось пішло не так, зберігаючи новий опис.</string>
-    <string name="error_set_notes_and_credits">Щось пішло не так під час збереження нових приміток
-        і авторів.</string>
+    <string name="error_set_description">Під час збереження опису сталася помилка.</string>
+    <string name="error_set_notes_and_credits">Під час збереження нових приміток та авторів
+        сталася помилка.</string>
     <string name="error_no_whatsapp">WhatsApp не встановлено</string>
     <string name="error_unsupported_bricks_chromecast">Цей скрипт не можна додати до проєкту 
         Chromecast.</string>
@@ -1394,11 +1397,11 @@
     <string name="connecting_please_wait">Підключення до пристрою.\nЗачекайте&#8230;</string>
     <string name="bt_connection_failed">Не вдалося під\'єднатися до пристрою!</string>
     <string name="none_found">Не знайдено неспарених пристроїв</string>
-    <string name="multiplayer_bluetooth_connection_information_title">З\'єднання Bluetooth
-        необхідне!</string>
-    <string name="multiplayer_bluetooth_connection_information">Щоб грати в цю гру в 
-        мультиплеєрі, потрібне з\'єднання Bluetooth. Обидва гравці повинні почати гру і бути на цьому
-        екрані,щоб з\'єднання працювало належним чином!</string>
+    <string name="multiplayer_bluetooth_connection_information_title">Підключення до Bluetooth
+         необхідне!</string>
+    <string name="multiplayer_bluetooth_connection_information">Щоб грати в цю гру
+        разом, потрібне з\'єднання Bluetooth. Обидва гравці повинні почати гру та бути на цьому
+        екрані, щоб з\'єднання працювало належним чином!</string>
     <!--  -->
     <!-- Arduino Bricks -->
     <string name="brick_arduino_select_digital_value">Встановити цифровий пін-код для Arduino</string>
@@ -1454,7 +1457,7 @@
         проєкт відкритий.</string>
     <string name="preference_title_mindstorms_nxt_sensors_description">Показ датчиків NXT з портами є проєктом
         конкретним і може бути налаштований тільки для відкритих проєктів.</string>
-    <string name="lego_nxt_sensor_config_info_text">У поточному проєкті використовуються цеглини або датчики Лего Mindstorms NXT. Для
+    <string name="lego_nxt_sensor_config_info_text">У поточному проєкті використовуються блоки або датчики Лего Mindstorms NXT. Для
         належної функціональності, будь ласка, під\'єднайте датчики до робота наступним чином</string>
     <string name="lego_port_1">Порт 1</string>
     <string name="lego_port_2">Порт 2</string>
@@ -1467,7 +1470,7 @@
         відкриття проєкту.</string>
     <string name="preference_title_mindstorms_ev3_sensors_description">Показ датчиків EV3 з портами є проєктом
         конкретним і може бути налаштований тільки для відкритих проєктів.</string>
-    <string name="lego_ev3_sensor_config_info_text">У поточному проєкті використовуються цеглини або датчики Лего Mindstorms EV3. Для
+    <string name="lego_ev3_sensor_config_info_text">У поточному проєкті використовуються блоки або датчики Лего Mindstorms EV3. Для
         належного функціональності, будь ласка, під\'єднайте датчики до робота наступним чином</string>
     <string name="ev3_choose_sensor_1">Датчик підключений до порту 1</string>
     <string name="ev3_choose_sensor_2">Датчик підключений до порту 2</string>
@@ -1647,9 +1650,9 @@
     <string name="formula_editor_title">Редактор формул</string>
     <string name="formula_editor_changes_discarded">Зміни відхилено!</string>
     <string name="formula_editor_parse_fail">Формула неприпустима!</string>
-    <string name="formula_nothing_selected">Визначити вхідне значення</string>
+    <string name="formula_nothing_selected">Встановити значення введення</string>
     <string name="formula_editor_parse_fail_formula_too_long">Формула занадто довга!</string>
-    <string name="formula_editor_choose_object_variable">Властивості цього актора або об\'єкта</string>
+    <string name="formula_editor_choose_object_variable">Властивості цього персонажа або об\'єкта</string>
     <string name="formula_editor_bracket_open">(</string>
     <string name="formula_editor_bracket_close">)</string>
     <string name="formula_editor_function_sin">sine</string>
@@ -1709,10 +1712,10 @@
     <string name="formula_editor_function_join3_parameter">(\'hello\',\' world\',\'!\')</string>
     <string name="formula_editor_function_regex">регулярний вираз</string>
     <string name="formula_editor_function_regex_parameter">(\' an? ([^ .]+)\',\'I am a panda.\')</string>
-    <string name="formula_editor_function_regex_assistant">Регулярний вираз
-        помічника</string>
-    <string name="formula_editor_dialog_regular_expression_assistant_title">Регулярний
-        помічник з виразів</string>
+    <string name="formula_editor_function_regex_assistant">Помічник
+        регулярного виразу</string>
+    <string name="formula_editor_dialog_regular_expression_assistant_title">Помічник
+        регулярного виразу</string>
     <string name="formula_editor_function_regex_html_extractor_not_found">Не вдалося знайти ключове слово.</string>
     <string name="formula_editor_function_regex_json_extractor_title">Екстрактор JSON</string>
     <string name="formula_editor_function_arduino_read_pin_value_digital">цифровий пін-код arduino</string>
@@ -1724,7 +1727,7 @@
     <string name="formula_editor_function_is_finger_touching">доторкнувся екрана</string>
     <string name="formula_editor_function_multi_finger_x">дотик до екрана по x</string>
     <string name="formula_editor_function_multi_finger_y">дотик до екрана по y</string>
-    <string name="formula_editor_function_is_multi_finger_touching">доторкнувся екрана</string>
+    <string name="formula_editor_function_is_multi_finger_touching">торкається екрана</string>
     <string name="formula_editor_function_index_of_last_finger">останній індекс дотику по екрану</string>
     <string name="formula_editor_function_number_of_current_touches">кількість поточних дотиків</string>
     <string name="formula_editor_function_index_of_current_touch">індекс поточного дотику</string>
@@ -1740,7 +1743,7 @@
     <string name="formula_editor_function_number_of_items_parameter">(*назва списку*)</string>
     <string name="formula_editor_function_flatten">вирівнювати</string>
     <string name="formula_editor_function_flatten_parameter">(*назва списку*)</string>
-    <string name="formula_editor_function_collision">торкається актора або об\'єкта</string>
+    <string name="formula_editor_function_collision">торкається персонажа або об\'єкта</string>
     <string name="formula_editor_function_collides_with_edge">торкається краю</string>
     <string name="formula_editor_function_touched">торкається пальця</string>
     <string name="formula_editor_function_collides_with_color">торкається кольору</string>
@@ -1831,9 +1834,9 @@
     <string name="formula_editor_object_look_number">номер вигляду</string>
     <string name="formula_editor_object_look_name">назва вигляду</string>
     <string name="formula_editor_object_number_of_looks">кількість виглядів</string>
-    <string name="formula_editor_object_background_number">номер фона</string>
-    <string name="formula_editor_object_background_name">назва фона</string>
-    <string name="formula_editor_object_number_of_backgrounds">кількість фонів</string>
+    <string name="formula_editor_object_background_number">номер тла</string>
+    <string name="formula_editor_object_background_name">назва тла</string>
+    <string name="formula_editor_object_number_of_backgrounds">кількість тла</string>
     <string name="formula_editor_object_distance_to">відстань до позиції дотику</string>
     <string name="formula_editor_compute">Обчислити</string>
     <string name="formula_editor_object">Властивості</string>
@@ -1977,12 +1980,12 @@
     <string name="formula_editor_function_text_block_from_camera">текстовий блок із камери</string>
     <string name="formula_editor_function_text_block_language_from_camera">мова текстового блоку з камери</string>
     <string name="formula_editor_function_text_block_parameter">(1)</string>
-    <string name="formula_editor_function_get_id_of_detected_object">ідентифікатор виявленого об\'єкта</string>
+    <string name="formula_editor_function_get_id_of_detected_object">ID виявленого об\'єкта</string>
     <string name="formula_editor_function_object_with_id_visible">об\'єкт із видимим ідентифікатором</string>
     <string name="formula_editor_intro_title_formula_editor">Редактор формул</string>
     <string name="formula_editor_intro_summary_formula_editor">За допомогою редактора формул ви можете створювати математичні та
-        логічні формули, які можна використовувати у своїх цеглинах.\n\nПродовжуйте,                         
-        натиснувши «ДАЛІ» або вийдіть, натиснувши «SKIP».
+        логічні формули, які ви можете використовувати у своїх блоках.\n\nПродовжити навчання, натиснувши «ДАЛІ» або пропустити,
+        натиснувши «ПРОПУСТИТИ».
     </string>
     <string name="formula_editor_intro_title_input_field">Поле введення</string>
     <string name="formula_editor_intro_summary_input_field">Тут ви можете побачити та відредагувати свою формулу.</string>
@@ -1994,7 +1997,7 @@
         використати \"Обчислити\".</string>
     <string name="formula_editor_intro_title_object">Властивості</string>
     <string name="formula_editor_intro_summary_object">Це колекція значень, які описують властивості вашого
-        поточного актора або об\'єкта. Прикладами є позиція x- і y-, або поточна швидкість.</string>
+        поточного персонажа або об\'єкта. Прикладами є позиція x- і y-, або поточна швидкість.</string>
     <string name="formula_editor_intro_title_functions">Функції</string>
     <string name="formula_editor_intro_summary_functions">Як і калькулятор, редактор формул пропонує
         багато математичних функцій.\nВи можете знайти тригонометричні функції, такі як \"синус\" і \"косинус\",
@@ -2013,7 +2016,7 @@
     <string name="formula_editor_speech_recognition">Розпізнавання мовлення</string>
     <string name="camera_error_text_detection">        Виникла проблема з визначенням тексту. Деякі компоненти все ще можуть                 
         завантажуватися у фоновому режимі. Переконайтеся, що ви підключені до Інтернету, і перевірте пізніше.</string>
-    <string name="warning_formula_recognized">Введено текст, який виглядає як формула. Якщо ви хочете використовувати функції,
+    <string name="warning_formula_recognized">Текст, який ви ввели, виглядає як формула. Якщо ви хочете використовувати функції,
         датчиків, змінних та інших елементів формули, будь ласка, виберіть їх за допомогою         
         кнопки у редакторі формул.</string>
     <!--  -->
@@ -2037,7 +2040,7 @@
     <string name="brick_choose_camera">Використовувати камеру</string>
     <string name="choose_camera_front">передню</string>
     <string name="choose_camera_back">задню</string>
-    <string name="camera_error_generic">        Під час спроби скористати камеру сталася помилка.
+    <string name="camera_error_generic">        Під час спроби скористатися камерою сталася помилка.
     </string>
     <string name="camera_error_face_detection">        Виникла проблема з розпізнаванням обличчя. Деякі компоненти можуть все ще         
         завантажуватися в фону. Переконайтеся, що ви підключені до Інтернету, і перевірте пізніше.
@@ -2051,7 +2054,7 @@
     <string name="cast_gamepad_left">вліво</string>
     <string name="cast_gamepad_right">вправо</string>
     <string name="cast_error_not_connected_msg">Будь ласка, спочатку під\'єднайтеся до Chromecast</string>
-    <string name="cast_error_cast_bricks_in_no_cast_project">Ваш проєкт використовує цеглини Chromecast і не може бути запущений
+    <string name="cast_error_cast_bricks_in_no_cast_project">Ваш проєкт використовує блоки Chromecast і не може бути запущений
         локально</string>
     <string name="cast_device_selector_dialog_title">Транслювати на</string>
     <string name="cast_button_menu_item_title">Кнопка трансляції</string>
@@ -2086,16 +2089,16 @@
     <string name="got_it">Зрозуміло</string>
     <string name="preference_description_hints">Увімкнути показ підказок</string>
     <string name="preference_title_enable_hints">Показувати підказки </string>
-    <string name="hint_category">Усі цеглини сортуються за категоріями. Виберіть категорію, яку ви шукаєте.</string>
-    <string name="hint_bricks">Щоб додати цеглину до свого скрипту, торкніться до цеглини, яку ви хочете використовувати.</string>
-    <string name="hint_scripts">Скрипт визначає поведінку вашого актора або об\'єкта. Щоб додати цеглини до скрипту,
-        натисніть \"+\".</string>
-    <string name="hint_looks">Тут можна знайти різний зовнішній вигляд актора або об\'єкта. Щоб додати новий вигляд
-        натисніть \"+\".</string>
-    <string name="hint_sounds">Тут ви можете додати нові звуки до свого актора або об\'єкта. Вони знаходяться у
-        катерогії \"Звуки\".</string>
-    <string name="hint_objects">Ваша програма складається з різних акторів і об\'єктів, які можуть взаємодіяти один з одним.
-        Щоб додати нового актора або об\'єкт, натисніть \"+\".</string>
+    <string name="hint_category">Усі блоки сортуються за категоріями. Виберіть категорію, яку ви шукаєте.</string>
+    <string name="hint_bricks">Щоб додати блок до свого скрипту, натисніть на блок, який ви хочете використовувати.</string>
+    <string name="hint_scripts">Скрипт визначає поведінку вашого персонажа або об\'єкта. Щоб додати блоки до скрипту,
+        натисніть «+».</string>
+    <string name="hint_looks">Тут можна знайти різні вигляди свого персонажа або об\'єкта. Щоб додати новий вигляд
+        натисніть «+».</string>
+    <string name="hint_sounds">Тут ви можете додати нові звуки до свого персонажа або об\'єкта. Вони знаходяться у
+        категорії \"Звуки\".</string>
+    <string name="hint_objects">Ваша програма складається з різних персонажів і об\'єктів, які можуть взаємодіяти один з одним.
+        Щоб додати нового персонажа або об\'єкт, натисніть «+»</string>
     <!--  -->
     <!-- Dialog Disable hints -->
     <string name="dialog_disable_hints_title">Показувати підказки?</string>
@@ -2118,9 +2121,9 @@
     <string name="data_value">Значення</string>
     <string name="category_recently_used">Нещодавно використані</string>
     <string name="new_sprite_dialog_place_visually">Розмістити візуально</string>
-    <string name="place_visually_text">Вам буде запропоновано розмістити нового актора або об\'єкт на
+    <string name="place_visually_text">Вам буде запропоновано розмістити нового персонажа або об\'єкт на
         сцену.</string>
-    <string name="new_empty_sprite_note">Примітка: Актор або об\'єкт буде створений
+    <string name="new_empty_sprite_note">Увага: Персонаж або об\'єкт буде створений
         без вигляду.</string>
     <!-- Information -->
     <string name="no_variable_selected">Не вибрано змінну</string>

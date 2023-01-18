@@ -2042,5 +2042,5 @@ precisa de acesso de leitura e escrita a ele. Você sempre pode alterar as permi
     <string name="set_particle_color_to">Define a cor da partícula para</string>
     <string name="undo_sort">Desfazer ordenação</string>
     <string name="sort">Ordenar</string>
-    <string name="checkbox">checkbox</string>
+    <string name="checkbox">caixa de seleção</string>
 </resources>

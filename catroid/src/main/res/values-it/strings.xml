@@ -2042,5 +2042,5 @@ con tolleranza %        </string>
     <string name="set_particle_color_to">Imposta il colore delle particelle a</string>
     <string name="undo_sort">Annulla ordinamento</string>
     <string name="sort">Ordina</string>
-    <string name="checkbox">checkbox</string>
+    <string name="checkbox">casella di controllo</string>
 </resources>
